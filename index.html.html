@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+    <style>
+        body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("Food.jpg");
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 80%;
+  padding: 1px;
+  text-align: center;
+}
+.button {
+  
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+}
+.button1:hover {
+  background-color: green;
+  
+}
+.button1 {
+  background-color: transparent;
+  color: white; 
+  border-radius: 12px;
+  border: 2px solid white;
+}
+
+
+
+.button2 {
+  background-color: transparent;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid white;
+}
+.button2:hover {
+  background-color: #008CBA;
+  
+}
+
+</style>
+</head>
+<body>
+    <div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1 style="font-size: 90px; font-family: 'Patrick Hand','cursive';">Foodzy.com</h1>
+  <p style="font-size: 30px;  font-family: 'Patrick Hand','cursive'; ">"Prebook your meal"</p>
+</div>
+<div class="top-right">
+<button class="button button1"><a href="http://127.0.0.1:5500/Foodzy3.html" style="text-decoration: none; color: white;">Login</a></button>
+<button class="button button2"><a href="http://127.0.0.1:5500/Foodzy2.html" style="text-decoration: none; color: white;"> Signup</a></button>
+</div>
+</body>
+</html>

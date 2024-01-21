@@ -1,0 +1,137 @@
+#name{
+    font-family: 'Patrick Hand', 'cursive';
+    font-size: 30px;
+    margin: 10px 0;
+    color: #808080;
+}
+.price{
+    font-size:20px;
+}
+input[type=text]{
+    margin-right: 0px;
+    padding: 10px;
+    width:250px;
+}
+button[type=button]{
+    padding: 10px;
+}
+button[type=button]:hover{
+    background-color: #ccc;
+    border-color:#ccc;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.searchbar{
+    margin-left:80px;
+    margin-top:90px;
+    width: 300px;
+}
+@media screen and (max-width:600px){
+    .nav #n,.nav input[type=text],.nav .img,.nav{
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 14px;
+        }
+        
+        .nav input[type=text] {
+            border: 1px solid #ccc;
+        }
+    }
+
+    
+
+
+.nav {
+    background: -webkit-linear-gradient(left, #7579ff,#ef24bc, #ef242b);
+    
+    display: grid;
+    /* grid-template-rows: auto auto auto auto auto auto;*/
+    width:1350px;
+    grid-template-columns:auto auto auto auto;
+    column-gap: 20px;
+    /*grid-template-columns: auto auto auto auto auto auto auto;*/
+
+}
+
+.nav #n {
+    text-decoration: none;
+    
+
+    font-size: 20px;
+
+    padding: 15px 25px;
+    height: 40px;
+    color:white;
+    font-weight: 20px;
+}
+
+#n:hover {
+    color:black;
+
+}
+
+.main-div {
+    
+    width: 250px;
+}
+.main-div1{
+    margin:20px;
+}
+.menu2{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 25px;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-right: 100px;
+}
+#na{
+    color: white;
+    height: 40px;
+}
+.menu1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-right: 100px;
+}
+.img{
+    overflow: hidden;
+}
+        .img #im {
+            transition: transform 0.5s ease;
+
+        }
+
+        .img:hover #im {
+            transform: scale(1.5);
+        }
+
+
+
+i:hover {
+    color: pink;
+    font-size:30px;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:25px;
+    margin-left:170px;
+    margin-top:20px;
+
+}
+.na{
+    float: left;
+    margin-top:100px;
+    margin-left: 80px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <title>Kikeez Juice Bar</title>
+    <style>
+       *, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       }
+       .body{
+            width: 100%;
+            padding: 20px;
+            background: -webkit-linear-gradient(left, #7579ff,#ef24bc, #ef242b);
+        }
+        .header{
+            width: 100%;
+            padding: 3px;
+            border: 0px solid red;
+            background-color: white;
+            margin-bottom: 1px;
+        }
+        .checked {
+  color: orange;
+}
+        .unchecked{
+            color: white;
+        }
+    
+
+.row {
+  padding-top: 1%;
+  padding-right: 65%;
+  display: flex;
+}
+
+.column {
+  
+  flex: 33.33%;
+  padding: 8px;
+}
+
+
+	
+         </style>
+         <script>
+          function myFunction() {
+            alert("Item added into the cart.");
+          }
+          </script>
+</head>
+<body>
+    
+    <div class="header">
+       <div class="navbar">
+        
+            <img src="logo6.png" class="logo">
+            <div class="nav">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Foodzy11.html" style="text-decoration: none; color: red; font-size: 23px;"> Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/Foodzy7.html" style="text-decoration: none; color: red;font-size: 23px;">Your Orders</a></li>
+                    <li><a href="http://127.0.0.1:5500/Foodzy9.html" style="text-decoration: none; color: red;font-size: 23px;">About us</a></li>
+                    <li><a href="" style="text-decoration: none; color: red;font-size: 23px;">Contact us</a></li>
+                        
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+    <div class="body">
+       
+        <img src="WhatsApp Image 2022-11-03 at 18.03.53.jpg" class="top-left" style= "height: 200px;">
+        <div class="gav">
+            <ul>
+                <li style="color: white; font-size: 33px; font-family: 'Patrick Hand','cursive'" >Kikeez Juice Bar</li>
+                <br/><br/>
+                <li style="color: white; font-size: 25px; font-family: 'Patrick Hand','cursive'">Healthy Juice</li>
+                <br/><br/>
+                <li style="color: white; font-size: 25px; font-family: 'Patrick Hand','cursive'">Bh4 Playground</li>
+                <li><b>4.3</b>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                </li> 
+
+                
+            </ul>
+
+        </div>
+    
+    </div>
+    <form class="example" action="/action_page.php">
+        <input type="text" placeholder="Search for dishes..." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <div class="row">
+        <div class="column">
+          <img src="Orange Juice.jpg" alt="Orange Juice" style="width: 450px">
+          <p style="padding-left: 20%; font-size: 50px; color: red;"><u>Orange Juice</u></p>
+          <p1 style="padding-left: 38%; font-size: 25px; color: black;">Rs50</p1>
+          <button onclick="myFunction()" style="font-size: 25px; cursor: pointer;">Add</button>
+
+        </div>
+        <div class="column">
+          <img src="Oreo-Milkshake.jpg" alt="Oreo-Milkshake" style="width:450px" height="300px">
+          <p style="padding-left: 16%; font-size: 50px; color: red;"><u>Oreo-Milkshake</u></p>
+          <p1 style="padding-left: 47%; font-size: 25px; color: black;">Rs50</p1>
+          <button onclick="myFunction()" style="font-size: 25px; cursor: pointer;">Add</button>
+
+        </div>
+        <div class="column">
+          <img src="Butterscotch shake.jpeg" alt="Butterscotch shake" style="width:450px" height="300px">
+          <p style="padding-left: 5%; font-size: 50px; color: red;"><u>Butterscotch shake</u></p>
+          <p1 style="padding-left: 45%; font-size: 25px; color: black;">Rs50</p1>
+          <button onclick="myFunction()" style="font-size: 25px; cursor: pointer;">Add</button>
+        </div>
+      </div>
+      
+         
+     
+</body>
+</html>

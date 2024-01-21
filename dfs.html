@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Thankyou</title>
+    <link rel="stylesheet" href="thankyou.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+<div class="header">
+    <div class="navbar">
+     
+         <img src="Screenshot (87).png" class="logo">
+         <div class="nav">
+             <ul>
+                 <li><a href="" style="text-decoration: none; color: red; font-size: 23px;"> Home</a></li>
+                 <li><a href="" style="text-decoration: none; color: red;font-size: 23px;">Offer$</a></li>
+                 <li><a href="" style="text-decoration: none; color: red;font-size: 23px;">About us</a></li>
+                 <li><a href="" style="text-decoration: none; color: red;font-size: 23px;">Contact us</a></li>
+                     
+             </ul>
+         
+         </div>
+     </div>
+ </div>
+ <div class="body">
+    
+     <img src="WhatsApp Image 2022-11-03 at 18.03.39.jpg" class="top-left">
+     <div class="gav">
+         <ul>
+             <li style="color: white; font-size: 33px;" >Vrindavan Bakery</li>
+             <br/><br/>
+             <li style="color: white; font-size: 25px;">Italian,Fast Food,Waffers</li>
+             <br/><br/>
+             <li style="color: white; font-size: 25px;">Bh4 Playground</li>
+             <li><b>4.3</b>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star checked"></span>
+                 <span class="fa fa-star unchecked"></span>
+                 <span class="fa fa-star unchecked"></span>
+             </li> 
+
+             
+         </ul>
+
+     </div>
+ 
+ </div>
+ <form class="example" action="/action_page.php">
+     <input type="text" placeholder="Search for dishes..." name="search">
+     <button type="submit"><i class="fa fa-search"></i></button>
+   </form>
+<div class="row">
+  <div class="column">
+    <img src="Burger.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Maggie.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="pizza.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
